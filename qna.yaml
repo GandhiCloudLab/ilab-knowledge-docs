@@ -76,7 +76,7 @@ seed_examples:
       If you accept or process payment cards, PCI DSS applies to you.'
 
 document:
-  repo: git@github.ibm.com:diwakar-kumar-ibm/instruct_lab_demo.git
+  repo: git@github.com:GandhiCloudLab/Gan-Test.git
   commit: 891d632
   patterns:
     - output.md
