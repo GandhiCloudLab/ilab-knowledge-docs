@@ -1,0 +1,52 @@
+version: 1
+task_description: 'Respond to questions about Envizi modules based to the query '
+created_by: Jeya Gandhi Rajan M
+domain: envizi modules
+seed_examples:
+  - question: 'What are the different modules available in Envizi'
+    answer: 'The below modules are available in Envizi.
+       Scope 1 & 2 GHG Accounting, Scope 3 GHG Accounting,	 Target setting and tracking,
+       Supply Chain Intelligence, ESG Reporting Frameworks, Building Ratings and Benchmarks,
+       Surveys and Assessments, Utility Bill Analytics, Interval Metering Analytics,
+       Sustainability Program Tracking.'
+  - question: 'What are the standard modules available in Envizi in Envizi?'
+    answer: 'Scope 1 & 2 GHG Accounting, Scope 3 GHG Accounting, ESG Reporting Frameworks'
+  - question: 'What are the key features of Scope 3 GHG Accounting module in Envizi.'
+    answer: 'AI-driven Natural Language Processing (NLP) models support data categorization 
+       for spend-based calculations, and emissions factors are drawn from embedded libraries. 
+       The Scope 3 Emissions Analysis PowerReport compares cope 3 emissions with scope 1 and 2 emissions.'
+  - question: 'Give me the summary about the ESG Reporting Frameworks module in Envizi.'
+    answer: 'In IBM Envizi ESG Suite, the ESG Reporting Frameworks module provides a 
+       Sustainability Reporting Manager component that is used to create disclosures about a company’s 
+       environmental, social, and governance (ESG) policies and performance for stakeholders.
+
+       Disclosures are typically created to respond to ESG reporting frameworks. Companies use 
+       ESG reporting frameworks to publicly disclose business operations data that is related to the 
+       ESG performance of the business. 
+       Some frameworks are voluntary while others are mandated by a government. 
+       The categories and questions asked by each framework often overlap. 
+       The Sustainability Reporting Manager component helps you to respond to multiple frameworks in a 
+       single workflow and to reuse responses across questions.
+
+       Sustainability Reporting Manager manages the workflow of disclosures and the approvals process and 
+       can be used to gather supporting evidence. A disclosure owner assigns the roles of assignee, 
+       contributor, reviewer, and approver to questions to make sure that the appropriate people 
+       in your organization respond to, review, and approve questions. It also limits access to 
+       responses to those with the required access level. Email notifications can be sent to notify of 
+       status changes, assignments, and due dates.
+
+       The component brings together quantitative data, attachments, weblinks, and question response 
+       methodologies to help you compose disclosure responses. The format of the response and the
+       reporting frequency is typically prescribed in the question. For several questions, best practice 
+       guidance is provided to help you respond to the question.'
+  - question: 'What are the workplace strategies the Surveys and Assessments module can capture in Envizi?'
+    answer: 'Typically, surveys are used to capture qualitative data. You can use surveys to generate metrics
+       that relate workplace strategies, such as
+         - Workplace diversity
+         - Codes of conduct
+        - Wellbeing initiatives'
+document:
+  repo: git@github.com:GandhiCloudLab/ilab-knowledge-docs.git
+  commit: 891d632
+  patterns:
+    - envizi-modules/modules.md
