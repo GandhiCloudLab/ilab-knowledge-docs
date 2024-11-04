@@ -4,7 +4,6 @@ Several modules or components are available in IBM® Envizi ESG Suite.
 
 The below Table shows which modules are available in the standard and premium editions.
 
------
 Module  Category    Standard    Premium
 Scope 1 & 2 GHG Accounting	Emissions Management	Included	Optional
 Scope 3 GHG Accounting	Emissions Management	Included	Optional
@@ -16,7 +15,7 @@ Surveys and Assessments	ESG Reporting	Excluded	Optional
 Utility Bill Analytics	Decarbonization	Excluded	Optional
 Interval Metering Analytics	Decarbonization	Excluded	Optional
 Sustainability Program Tracking	Decarbonization	Excluded	Optional
------
+
 
 #### Scope 1 & 2 GHG Accounting (Premium | Standard)
 Use the emissions calculation engine to calculate scope 1 and 2 emissions.
